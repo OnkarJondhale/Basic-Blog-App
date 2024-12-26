@@ -19,3 +19,7 @@ connectDb();
 app.listen(PORT,()=>{
     console.log("Server Created Successfully");
 })
+
+app.get('/',()=>{
+    resizeBy.send('<h1> Default Route </h1>')
+})
