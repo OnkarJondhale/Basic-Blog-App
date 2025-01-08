@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .todo-container {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .todo-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #ff7f7f;
+  }
+  
+  .bg-blue-600 {
+    background-color: #4A90E2;
+  }
+  
+  .bg-violet-600 {
+    background-color: #7E57C2;
+  }
+  
+  .bg-red-400 {
+    background-color: #EF5350;
+  }
+  
+  .bg-red-900 {
+    background-color: #B71C1C;
+  }
+  
+  .bg-green-400 {
+    background-color: #66BB6A;
+  }
+  
+  .text-white {
+    color: #FFFFFF;
+  }
+  
+  .text-black {
+    color: #000000;
+  }
+
+.input-container {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.input-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.input-btn {
+  transition: background-color 0.2s;
+}
+
+.input-btn:hover {
+  background-color: #ff7f7f;
+}
+
+.bg-blue-100 {
+  background-color: #BBDEFB;
+}
+
+.bg-red-400 {
+  background-color: #EF5350;
+}
+
+.bg-red-900 {
+  background-color: #B71C1C;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-black {
+  color: #000000;
+}
+
+  
